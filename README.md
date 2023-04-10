@@ -1,8 +1,8 @@
 # innisfree 홈페이지 클론코딩
 <br>
 
-> 과제 결과물  
-https://azure0929.github.io/innisfree-clone-coding/
+> 배포 결과물  
+https://innisfree-clone-coding.netlify.app/
 
 <br>
 
