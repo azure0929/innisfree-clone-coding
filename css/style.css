@@ -28,9 +28,6 @@ button {
 li {
   list-style: none;
 }
-nav {
-  display: block;
-}
 input {
   outline: none;
 }
@@ -193,7 +190,7 @@ header .gnbmenu .gnbnew .gnblist li .hit {
   border-radius: 50%;
 }
 header .gnbmenu .gnbnew .gnblist li:first-child {
-  margin-left: 0 !important;
+  margin-left: 0;
 }
 header .gnbmenu .gnbnew .gnblist li a {
   display: inline-block;
@@ -1705,6 +1702,10 @@ header .category ul.cateList>li .catedetail ul>li>a:hover {
 }
 .clientReview .pdtList .pdtCont:hover {
   height: 232px;
+}
+.clientReview .pdtList .pdtCont:hover .name2 {
+  -webkit-line-clamp: 5;
+  margin-bottom: 14px;
 }
 .clientReview .pdtList .pdtCont .name {
   display: block;
